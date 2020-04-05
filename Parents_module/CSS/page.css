@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Varela+Round&display=swap");
+
+#header {
+  background-color: #ebecf0;
+  border-radius: 0.2cm;
+  width: auto;
+}
+#footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #ebecf0;
+  border-radius: 0.2cm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+#mlogo {
+  border-radius: 0.2cm;
+  width: 90vw;
+  padding: 0.5vw;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #051a47;
+}
+.social-icons .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons img {
+  width: 75px;
+}
+.address {
+  text-align: center;
+  color: #051a47;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #051a47;
+}
+#bottom-line {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  color: #051a47;
+}
+
+@media screen and (max-width: 768px) {
+  #footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #mlogo {
+    width: 700px;
+  }
+}
+
+#bg{
+  align-items: center;
+  width: 300px;
+  height: 230px;
+}

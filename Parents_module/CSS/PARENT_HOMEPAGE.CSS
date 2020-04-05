@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Roboto&family=Source+Sans+Pro&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar h1 {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#details {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+#details td, #details th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+#details tr:nth-child(even){background-color: #f2f2f2;}
+
+#details tr:hover {background-color: #ddd;}
+
+#details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+  
+}
+.scrollit {
+    overflow:scroll;
+    height:800px;
+}
+/*entire content*/
+.container_tbl{
+    align-content: center;
+    width: 90%;
+    margin-left: 5%;
+}
+/*the profile section td*/
+.data{
+    width: 80%;
+}
+/*contents in the profile section*/
+/*table with menus*/
+.menu_tbl{
+    border-collapse: collapse;
+    border: 1px solid #ebecf0;
+    border-radius: 5px; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    
+}
+/*td of menu table*/
+.menu_tbl_td{
+    border: 2px solid #ebecf0;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px; 
+    text-align: center;
+    text-shadow: 1px;
+}
+/*h6 inside td of menu table*/
+.menu_tbl_td h6{
+    color: darkgrey;
+    padding: 0px;
+    margin: 0px;
+}
+/*image of profile*/
+.profile_img{
+    height:60px;
+    width: 60px;
+}
+/*active page in table menu*/
+#page_active{
+    background:#ebecf0;
+}
+/*h1 in profile section*/
+.data h1{
+    margin-left: 20%;
+    font-family: 'Roboto', sans-serif;
+}
+/*table of profile section*/
+.data_tbl{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*td in table of profile section*/
+.data_tbl_td_label{
+    width: 30%;
+}
+/*tr in table of profile section*/
+.data_tbl_tr{
+    height: 40px;
+}
+/*odd tr in table of profile section*/
+#tr_odd{
+    background: #ebecf0;
+}
+/*anchor tag*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/*hover ofanchor tag*/
+a:hover{
+    background-color:#ebecf0;
+}
